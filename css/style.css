@@ -219,6 +219,17 @@ footer{
 
 #proj-image{
     height: 300px;
+    transition: opacity 0.5s;
+    mix-blend-mode: screen;
+    opacity: 0.5;
+}
+ #proj-image:hover{
+    mix-blend-mode: normal;
+    opacity: 1;
+}
+
+.image{
+    background-color: rgb(10, 25, 47);
 }
 
 /*Small devices (landscape phones, 576px and up)*/

@@ -15,6 +15,16 @@ body{
     background: rgb(10, 25, 47);
 }
 /*nav-bar styling*/
+.start{
+    color: rgb(214, 226, 44);
+    font-size: 50px;
+    margin-left: 20px;
+    padding-left: 25px;
+}
+.navbar-toggler-icon{
+    background-color: rgb(78, 82, 23);
+}
+
 .navbar-brand{
     padding-left: 7rem;
 }
@@ -37,6 +47,7 @@ nav ul{
 #about{
     padding-left: 20px;
 }
+
 /* */
 .intro h3{
    padding-top: 30%;
@@ -58,7 +69,7 @@ nav ul{
 }     
 
 /*Buttons*/
-.btn-primary, .btn-secondary{
+.btn-secondary{
     padding: .5rem 2.2rem;
     position: relative;
     border: 4px solid transparent;
@@ -66,18 +77,12 @@ nav ul{
     background: white;
     color: black;
 }
-.btn-primary, .btn-secondary{
+.btn-secondary{
     border-color:rgb(214, 226, 44);
     background:  rgb(10, 25, 47);
     color: rgb(214, 226, 44);
     border: 2px solid;
 }
-.btn-primary:hover{
-    border-color:rgb(214, 226, 44);
-    background:  rgb(10, 25, 47);
-    color: rgb(214, 226, 44);
-}
-
 
 .btn-secondary:hover{
     color: rgb(214, 226, 44);
@@ -85,7 +90,7 @@ nav ul{
     border-color: rgb(214, 226, 44);
 }
 
-.btn-primary, .btn-secondary::after{
+.btn-secondary::after{
     border-color:rgb(214, 226, 44);
     background:  rgb(10, 25, 47);
     color: rgb(214, 226, 44);
@@ -169,16 +174,16 @@ footer{
 }
 
 
-.fa-github, .fa-external-link-alt{
+.fa-github, .fa-external-link-alt, .fa-linkedin{
     color:rgb(204, 214, 246);
     font-size: 1.5em;
 }
 
-.fa-github:hover, .fa-external-link-alt:hover{
+.fa-github:hover, .fa-external-link-alt:hover, .fa-linkedin:hover{
     color: rgb(214, 226, 44);
 }
 
-.fa-github::after, .fa-external-link-alt::after{
+.fa-github::after, .fa-external-link-alt::after, .fa-linkedin::after{
     color: rgb(214, 226, 44);
 }
 
@@ -210,4 +215,25 @@ footer{
 .info ul>li{
     color: rgb(168, 178, 209);
     display: inline;
+}
+
+#proj-image{
+    height: 300px;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 767.98px) { 
+    #aboutMe{
+        padding: 8rem 0rem;
+        padding-top: 25px;
+    }
+    #proj-image{
+        height: 200px;
+    }
+    .title-about{
+        padding-top: 0em!important;
+    }
+    .title-about h2{
+        padding-top: 0em!important;
+    }
 }

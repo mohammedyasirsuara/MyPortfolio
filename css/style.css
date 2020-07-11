@@ -237,6 +237,10 @@ footer{
     color: whitesmoke;
 }
 
+#portfolio{
+    padding-top: 5em;
+}
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 767.98px) { 
     #aboutMe{
